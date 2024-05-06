@@ -2,6 +2,11 @@
 
 All Notable changes to `softonic/guzzle_logger` will be documented in this file
 
+## 2.2.1 - 2024-05-06
+
+## Changes
+- Improve compatibility with Guzzle 7 [1](https://github.com/softonic/guzzle-log-middleware/pull/1)
+
 ## 2.2.0 - 2021-04-04
 
 ## Changes
