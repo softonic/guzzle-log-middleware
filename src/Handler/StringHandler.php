@@ -11,9 +11,6 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;
 use Throwable;
 
-/**
- * @author George Mponos <gmponos@gmail.com>
- */
 final class StringHandler extends AbstractHandler
 {
     public function __construct(LogLevelStrategyInterface $logLevelStrategy = null)

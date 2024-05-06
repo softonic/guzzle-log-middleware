@@ -7,9 +7,6 @@ namespace GuzzleLogMiddleware\Handler;
 use GuzzleLogMiddleware\Handler\LogLevelStrategy\FixedStrategy;
 use GuzzleLogMiddleware\Handler\LogLevelStrategy\LogLevelStrategyInterface;
 
-/**
- * @author George Mponos <gmponos@gmail.com>
- */
 abstract class AbstractHandler implements HandlerInterface
 {
     /**

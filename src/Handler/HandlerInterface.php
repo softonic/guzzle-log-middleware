@@ -14,8 +14,6 @@ use Throwable;
  * Classes that will implement this interface are responsible
  * to log the MessageInterface|\Throwable|TransferStats that are
  * passed as values.
- *
- * @author George Mponos <gmponos@gmail.com>
  */
 interface HandlerInterface
 {

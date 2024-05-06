@@ -13,9 +13,6 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;
 use Throwable;
 
-/**
- * @author George Mponos <gmponos@gmail.com>
- */
 final class MultiRecordArrayHandler extends AbstractHandler
 {
     /**

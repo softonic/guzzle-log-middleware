@@ -9,9 +9,6 @@ use GuzzleHttp\TransferStats;
 use Psr\Http\Message\MessageInterface;
 use Psr\Log\LogLevel;
 
-/**
- * @author George Mponos <gmponos@gmail.com>
- */
 final class FixedStrategy implements LogLevelStrategyInterface
 {
     /**
