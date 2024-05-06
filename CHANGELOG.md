@@ -2,6 +2,19 @@
 
 All Notable changes to `gmponos/guzzle_logger` will be documented in this file
 
+## 2.2.0 - 2021-04-04
+
+## Changes
+- Allow psr/log in version 2 and 3, like guzzlehttp/guzzle do it ([44](https://github.com/gmponos/guzzle-log-middleware/pull/44))
+
+## 2.1.0 - 2021-03-18
+
+That was a long layoff
+
+## Changes
+- Allow PHP 8
+- Fix a deprecation on MultiRecordArrayHandler regarding query
+
 ## 2.0.0 - 2020-07-05
 
 ### Changed
