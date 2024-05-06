@@ -9,9 +9,6 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LogLevel;
 
-/**
- * @author George Mponos <gmponos@gmail.com>
- */
 final class ThresholdStrategy implements LogLevelStrategyInterface
 {
     public const INFORMATIONAL = '1xx';

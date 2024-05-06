@@ -1,5 +1,5 @@
 {
-    "name": "gmponos/guzzle_logger",
+    "name": "softonic/guzzle_logger",
     "description": "A Guzzle middleware to log request and responses automatically",
     "keywords": [
         "psr3",
@@ -8,13 +8,7 @@
         "logging"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/gmponos/guzzle-log-middleware",
-    "authors": [
-        {
-            "name": "George Mponos",
-            "email": "gmponos@gmail.com"
-        }
-    ],
+    "homepage": "https://github.com/softonic/guzzle-log-middleware",
     "autoload": {
         "psr-4": {
             "GuzzleLogMiddleware\\": "src/"
@@ -28,7 +22,8 @@
     "require": {
         "php": "^7.2 || ^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.1 || ^7.0.1",
+        "colinodell/psr-testlogger": "^1.3",
+        "guzzlehttp/guzzle": "^6.1 || ^7",
         "guzzlehttp/psr7": "^1.7 || ^2.0",
         "psr/log": "^1.1 || ^2.0 || ^3.0"
     },

@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `gmponos/guzzle_logger` will be documented in this file
+All Notable changes to `softonic/guzzle_logger` will be documented in this file
 
 ## 2.2.0 - 2021-04-04
 

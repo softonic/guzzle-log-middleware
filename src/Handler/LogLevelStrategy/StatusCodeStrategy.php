@@ -7,9 +7,6 @@ namespace GuzzleLogMiddleware\Handler\LogLevelStrategy;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LogLevel;
 
-/**
- * @author George Mponos <gmponos@gmail.com>
- */
 final class StatusCodeStrategy implements LogLevelStrategyInterface
 {
     /**
